@@ -1,0 +1,153 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 1rem;
+    background: #333;
+    color: white;
+}
+
+.title {
+    color: #39ff14;
+    /* Neon green */
+    font-size: 1.5em;
+    margin-right: auto;
+}
+
+.right-links {
+    margin-left: auto;
+}
+
+.neon-blue {
+    color: #00ffff;
+    /* Neon blue */
+}
+
+/* About Section Styling */
+.about-section {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.about-content {
+    max-width: 600px;
+    padding: 1rem;
+    background: #f8f8f8;
+    border-radius: 10px;
+}
+
+/* Project Section Styling */
+.project-section {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.project-left {
+    flex-direction: row-reverse;
+}
+
+.project-right {
+    flex-direction: row;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    padding: 1rem;
+    background: #e0e0e0;
+    border-radius: 10px;
+}
+
+.project-content img {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+}
+
+footer a {
+    color: #39ff14;
+    /* Matches Wild Builds title */
+    text-decoration: none;
+}
+
+/* Restore Title and Navigation Styling */
+nav ul li {
+    margin-right: 2rem;
+}
+
+nav a {
+    color: #39ff14;
+    /* Neon green for navigation links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    /* Add underline when hovering */
+}
+
+figure {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+figcaption {
+    color: white;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+.full-width {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+main {
+    padding: 20px;
+}
+
+.about-section,
+.project-section {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
